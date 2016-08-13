@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+.colored-text {
+	color: #f86923;
+}
+.very_large_text {
+	color: #f86923;
+}
+.tp-leftarrow.default {
+	background-color: #f86923;
+}
+.tp-rightarrow.default {
+	background-color: #f86923;
+}
+.tp-banner .getstarted {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.tp-banner .getstarted:hover {
+	border: 2px solid #f86923;
+	color: #fff;
+	background-color: #f86923;
+}
+#navigation ul.nav a:hover {
+	color: #f86923;
+}
+#navigation ul.nav .current a {
+	color: #f86923;
+}
+#about .circle {
+	border: 2px solid #f86923;
+	color: #f86923;
+}
+#about .col-md-4:hover .circle {
+	background-color: #f86923;
+}
+#about .col-md-4:hover i {
+	color: #fff;
+}
+.teamoverlayzoom span.zoom {
+	background: rgb(248, 105, 35); /* RGBa with 0.6 opacity */
+	background: rgba(248, 105, 35, 1);
+}
+.teamoverlayzoom:hover span.zoom, .teamoverlayzoom:focus span.zoom {
+	background: rgb(248, 105, 35); /* RGBa with 0.6 opacity */
+	background: rgba(248, 105, 35, 0.6);
+}
+
+#team .team-social a i {
+	color: #f86923;
+}
+#team .team-social a i:hover {
+	opacity: 7;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	color: #f86923!important;
+	border: 2px solid #f86923!important;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	color: #fff!important;
+	background-color: #f86923!important;
+}
+#bar {
+	background: #f86923;
+}
+#about #accordion i {
+	color: #f86923;
+}
+#donutchart1, #donutchart2, #donutchart3, #donutchart4, #donutchart5, #donutchart6, #donutchart7, #donutchart8 {
+	color: #f86923;
+}
+#quotes .name {
+	color: #f86923;
+}
+#services .circle {
+	border: 3px solid #f86923;
+	color: #f86923;
+}
+#services .item:hover .circle {
+	background-color: #f86923;
+	color: #fff;
+}
+
+#our-facts .items .icon {
+	background-color: #f86923;
+	color: #fff;
+}
+#our-facts .items:hover .circle {
+	background-color: #ffffff;
+	color: #f86923;
+}
+#our-facts .items:hover .icon {
+	background-color: #000;
+	color: #f86923;
+}
+#our-facts .items:hover .icon i {
+	color: #f86923;
+}
+.portfolio-detail .heading {
+	color: #f86923;
+}
+.links a {
+	color: #f86923;
+}
+#options ul li:hover a, #options ul li a.selected {
+	color: #f86923;
+	border: 3px solid #f86923;
+}
+.overlayzoom span.zoom {
+	background: rgb(248, 105, 35); /* RGBa with 0.6 opacity */
+	background: rgba(248, 105, 35, 1);
+}
+.overlayzoom span.zoom span {
+}
+.overlayzoom:hover span.zoom, .overlayzoom:focus span.zoom {
+	background: rgb(248, 105, 35); /* RGBa with 0.6 opacity */
+	background: rgba(248, 105, 35, 0.6);
+}
+#pricing .p {
+	color: #fff;
+	background-color: #f86923;
+}
+#pricing .col-md-3:hover .circle {
+	background-color: #f86923;
+	color: #fff;
+}
+#pricing .col-md-3:hover .btn {
+	background-color: #f86923;
+	color: #FFF;
+}
+#blog .post .date {
+	background-color: #f86923;
+	color: #FFF;
+}
+#blog .post .info a {
+	color: #f86923;
+	text-decoration: none;
+}
+#blog .post .info a:link {
+	color: #f86923;
+	text-decoration: none;
+}
+#blog .post .info a:hover {
+	color: #f86923;
+	text-decoration: underline;
+}
+#blog .post .more {
+	background-color: #f86923;
+	color: #FFF;
+}
+#blog-page .post .date {
+	background-color: #f86923;
+	color: #FFF;
+}
+#blog-page .post .more {
+	background-color: #f86923;
+	color: #FFF;
+}
+.info a {
+	color: #f86923;
+	text-decoration: none;
+}
+.info a:link {
+	color: #f86923;
+	text-decoration: none;
+}
+.info a:hover {
+	color: #f86923;
+	text-decoration: underline;
+}
+ul.nav-tabs li a {
+	color: #f86923;
+}
+.tab-content ul li a {
+	color: #f86923;
+}
+ul.media-list li a {
+	text-decoration: underline;
+	color: #f86923;
+}
+a.view-all {
+	border: 2px solid #f86923;
+	color: #f86923;
+}
+a.view-all:hover {
+	border: 2px solid #f86923;
+	color: #fff;
+	background-color: #f86923;
+}
+.testimonials-p .items .heading-1 {
+	color: #f86923;
+}
+#contact .address i {
+	color: #f86923;
+}
+#social-media ul li {
+	background-color: #fff;
+	color: #f86923;
+}
+#footer .desc i {
+	color: #f86923;
+}
+.scrollup {
+	background-color: #f86923;
+	color: #fff;
+}
+.btn-default {
+	background-color: #f86923;
+	color: #fff;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #000;
+}

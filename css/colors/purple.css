@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+.colored-text {
+	color: #ba54ff;
+}
+.very_large_text {
+	color: #ba54ff;
+}
+.tp-leftarrow.default {
+	background-color: #ba54ff;
+}
+.tp-rightarrow.default {
+	background-color: #ba54ff;
+}
+.tp-banner .getstarted {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.tp-banner .getstarted:hover {
+	border: 2px solid #ba54ff;
+	color: #fff;
+	background-color: #ba54ff;
+}
+#navigation ul.nav a:hover {
+	color: #ba54ff;
+}
+#navigation ul.nav .current a {
+	color: #ba54ff;
+}
+#about .circle {
+	border: 2px solid #ba54ff;
+	color: #ba54ff;
+}
+#about .col-md-4:hover .circle {
+	background-color: #ba54ff;
+}
+#about .col-md-4:hover i {
+	color: #fff;
+}
+.teamoverlayzoom span.zoom {
+	background: rgb(186, 84, 255); /* RGBa with 0.6 opacity */
+	background: rgba(186, 84, 255, 1);
+}
+.teamoverlayzoom:hover span.zoom, .teamoverlayzoom:focus span.zoom {
+	background: rgb(186, 84, 255); /* RGBa with 0.6 opacity */
+	background: rgba(186, 84, 255, 0.6);
+}
+
+#team .team-social a i {
+	color: #ba54ff;
+}
+#team .team-social a i:hover {
+	opacity: 7;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	color: #ba54ff!important;
+	border: 2px solid #ba54ff!important;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	color: #fff!important;
+	background-color: #ba54ff!important;
+}
+#bar {
+	background: #ba54ff;
+}
+#about #accordion i {
+	color: #ba54ff;
+}
+#donutchart1, #donutchart2, #donutchart3, #donutchart4, #donutchart5, #donutchart6, #donutchart7, #donutchart8 {
+	color: #ba54ff;
+}
+#quotes .name {
+	color: #ba54ff;
+}
+#services .circle {
+	border: 3px solid #ba54ff;
+	color: #ba54ff;
+}
+#services .item:hover .circle {
+	background-color: #ba54ff;
+	color: #fff;
+}
+
+#our-facts .items .icon {
+	background-color: #ba54ff;
+	color: #fff;
+}
+#our-facts .items:hover .circle {
+	background-color: #ffffff;
+	color: #ba54ff;
+}
+#our-facts .items:hover .icon {
+	background-color: #000;
+	color: #ba54ff;
+}
+#our-facts .items:hover .icon i {
+	color: #ba54ff;
+}
+.portfolio-detail .heading {
+	color: #ba54ff;
+}
+.links a {
+	color: #ba54ff;
+}
+#options ul li:hover a, #options ul li a.selected {
+	color: #ba54ff;
+	border: 3px solid #ba54ff;
+}
+.overlayzoom span.zoom {
+	background: rgb(186, 84, 255); /* RGBa with 0.6 opacity */
+	background: rgba(186, 84, 255, 1);
+}
+.overlayzoom span.zoom span {
+}
+.overlayzoom:hover span.zoom, .overlayzoom:focus span.zoom {
+	background: rgb(186, 84, 255); /* RGBa with 0.6 opacity */
+	background: rgba(186, 84, 255, 0.6);
+}
+#pricing .p {
+	color: #fff;
+	background-color: #ba54ff;
+}
+#pricing .col-md-3:hover .circle {
+	background-color: #ba54ff;
+	color: #fff;
+}
+#pricing .col-md-3:hover .btn {
+	background-color: #ba54ff;
+	color: #FFF;
+}
+#blog .post .date {
+	background-color: #ba54ff;
+	color: #FFF;
+}
+
+.info a {
+	color: #ba54ff;
+	text-decoration: none;
+}
+.info a:link {
+	color: #ba54ff;
+	text-decoration: none;
+}
+.info a:hover {
+	color: #ba54ff;
+	text-decoration: underline;
+}
+ul.nav-tabs li a {
+	color: #ba54ff;
+}
+.tab-content ul li a {
+	color: #ba54ff;
+}
+ul.media-list li a {
+	text-decoration: underline;
+	color: #ba54ff;
+}
+#blog .post .more {
+	background-color: #ba54ff;
+	color: #FFF;
+}
+#blog-page .post .date {
+	background-color: #ba54ff;
+	color: #FFF;
+}
+#blog-page .post .more {
+	background-color: #ba54ff;
+	color: #FFF;
+}
+#blog-page .post .info a {
+	color: #ba54ff;
+	text-decoration: none;
+}
+#blog-page .post .info a:link {
+	color: #ba54ff;
+	text-decoration: none;
+}
+#blog-page .post .info a:hover {
+	color: #ba54ff;
+	text-decoration: underline;
+}
+a.view-all {
+	border: 2px solid #ba54ff;
+	color: #ba54ff;
+}
+a.view-all:hover {
+	border: 2px solid #ba54ff;
+	color: #fff;
+	background-color: #ba54ff;
+}
+.testimonials-p .items .heading-1 {
+	color: #ba54ff;
+}
+#contact .address i {
+	color: #ba54ff;
+}
+#social-media ul li {
+	background-color: #fff;
+	color: #ba54ff;
+}
+#footer .desc i {
+	color: #ba54ff;
+}
+.scrollup {
+	background-color: #ba54ff;
+	color: #fff;
+}
+.btn-default {
+	background-color: #ba54ff;
+	color: #fff;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #000;
+}

@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+.colored-text {
+	color: #de4a4a;
+}
+.very_large_text {
+	color: #de4a4a;
+}
+.tp-leftarrow.default {
+	background-color: #de4a4a;
+}
+.tp-rightarrow.default {
+	background-color: #de4a4a;
+}
+.tp-banner .getstarted {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.tp-banner .getstarted:hover {
+	border: 2px solid #de4a4a;
+	color: #fff;
+	background-color: #de4a4a;
+}
+#navigation ul.nav a:hover {
+	color: #de4a4a;
+}
+#navigation ul.nav .current a {
+	color: #de4a4a;
+}
+#about .circle {
+	border: 2px solid #de4a4a;
+	color: #de4a4a;
+}
+#about .col-md-4:hover .circle {
+	background-color: #de4a4a;
+}
+#about .col-md-4:hover i {
+	color: #fff;
+}
+.teamoverlayzoom span.zoom {
+	background: rgb(222, 74, 74); /* RGBa with 0.6 opacity */
+	background: rgba(222, 74, 74, 1);
+}
+.teamoverlayzoom:hover span.zoom, .teamoverlayzoom:focus span.zoom {
+	background: rgb(222, 74, 74); /* RGBa with 0.6 opacity */
+	background: rgba(222, 74, 74, 0.6);
+}
+
+#team .team-social a i {
+	color: #de4a4a;
+}
+#team .team-social a i:hover {
+	opacity: 7;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	color: #de4a4a!important;
+	border: 2px solid #de4a4a!important;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	color: #fff!important;
+	background-color: #de4a4a!important;
+}
+#bar {
+	background: #de4a4a;
+}
+#about #accordion i {
+	color: #de4a4a;
+}
+#donutchart1, #donutchart2, #donutchart3, #donutchart4, #donutchart5, #donutchart6, #donutchart7, #donutchart8 {
+	color: #de4a4a;
+}
+#quotes .name {
+	color: #de4a4a;
+}
+#services .circle {
+	border: 3px solid #de4a4a;
+	color: #de4a4a;
+}
+#services .item:hover .circle {
+	background-color: #de4a4a;
+	color: #fff;
+}
+
+#our-facts .items .icon {
+	background-color: #de4a4a;
+	color: #fff;
+}
+#our-facts .items:hover .circle {
+	background-color: #ffffff;
+	color: #de4a4a;
+}
+#our-facts .items:hover .icon {
+	background-color: #000;
+	color: #de4a4a;
+}
+#our-facts .items:hover .icon i {
+	color: #de4a4a;
+}
+.portfolio-detail .heading {
+	color: #de4a4a;
+}
+.links a {
+	color: #de4a4a;
+}
+#options ul li:hover a, #options ul li a.selected {
+	color: #de4a4a;
+	border: 3px solid #de4a4a;
+}
+.overlayzoom span.zoom {
+	background: rgb(222, 74, 74); /* RGBa with 0.6 opacity */
+	background: rgba(222, 74, 74, 1);
+}
+.overlayzoom span.zoom span {
+}
+.overlayzoom:hover span.zoom, .overlayzoom:focus span.zoom {
+	background: rgb(222, 74, 74); /* RGBa with 0.6 opacity */
+	background: rgba(222, 74, 74, 0.6);
+}
+#pricing .p {
+	color: #fff;
+	background-color: #de4a4a;
+}
+#pricing .col-md-3:hover .circle {
+	background-color: #de4a4a;
+	color: #fff;
+}
+#pricing .col-md-3:hover .btn {
+	background-color: #de4a4a;
+	color: #FFF;
+}
+#blog .post .date {
+	background-color: #de4a4a;
+	color: #FFF;
+}
+.info a {
+	color: #de4a4a;
+	text-decoration: none;
+}
+.info a:link {
+	color: #de4a4a;
+	text-decoration: none;
+}
+.info a:hover {
+	color: #de4a4a;
+	text-decoration: underline;
+}
+ul.nav-tabs li a {
+	color: #de4a4a;
+}
+.tab-content ul li a {
+	color: #de4a4a;
+}
+ul.media-list li a {
+	text-decoration: underline;
+	color: #de4a4a;
+}
+#blog .post .more {
+	background-color: #de4a4a;
+	color: #FFF;
+}
+#blog-page .post .date {
+	background-color: #de4a4a;
+	color: #FFF;
+}
+#blog-page .post .more {
+	background-color: #de4a4a;
+	color: #FFF;
+}
+#blog-page .post .info a {
+	color: #de4a4a;
+	text-decoration: none;
+}
+#blog-page .post .info a:link {
+	color: #de4a4a;
+	text-decoration: none;
+}
+#blog-page .post .info a:hover {
+	color: #de4a4a;
+	text-decoration: underline;
+}
+a.view-all {
+	border: 2px solid #de4a4a;
+	color: #de4a4a;
+}
+a.view-all:hover {
+	border: 2px solid #de4a4a;
+	color: #fff;
+	background-color: #de4a4a;
+}
+.testimonials-p .items .heading-1 {
+	color: #de4a4a;
+}
+#contact .address i {
+	color: #de4a4a;
+}
+#social-media ul li {
+	background-color: #fff;
+	color: #de4a4a;
+}
+#footer .desc i {
+	color: #de4a4a;
+}
+.scrollup {
+	background-color: #de4a4a;
+	color: #fff;
+}
+.btn-default {
+	background-color: #de4a4a;
+	color: #fff;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #000;
+}

@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+.colored-text {
+	color: #7f7f7f;
+}
+.very_large_text {
+	color: #7f7f7f;
+}
+.tp-leftarrow.default {
+	background-color: #7f7f7f;
+}
+.tp-rightarrow.default {
+	background-color: #7f7f7f;
+}
+.tp-banner .getstarted {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.tp-banner .getstarted:hover {
+	border: 2px solid #7f7f7f;
+	color: #fff;
+	background-color: #7f7f7f;
+}
+#navigation ul.nav a:hover {
+	color: #7f7f7f;
+}
+#navigation ul.nav .current a {
+	color: #7f7f7f;
+}
+#about .circle {
+	border: 2px solid #7f7f7f;
+	color: #7f7f7f;
+}
+#about .col-md-4:hover .circle {
+	background-color: #7f7f7f;
+}
+#about .col-md-4:hover i {
+	color: #fff;
+}
+.teamoverlayzoom span.zoom {
+	background: rgb(127, 127, 127); /* RGBa with 0.6 opacity */
+	background: rgba(127, 127, 127, 1);
+}
+.teamoverlayzoom:hover span.zoom, .teamoverlayzoom:focus span.zoom {
+	background: rgb(127, 127, 127); /* RGBa with 0.6 opacity */
+	background: rgba(127, 127, 127, 0.6);
+}
+
+#team .team-social a i {
+	color: #7f7f7f;
+}
+#team .team-social a i:hover {
+	opacity: 7;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	color: #7f7f7f!important;
+	border: 2px solid #7f7f7f!important;
+}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+	color: #fff!important;
+	background-color: #7f7f7f!important;
+}
+#bar {
+	background: #7f7f7f;
+}
+#about #accordion i {
+	color: #7f7f7f;
+}
+#donutchart1, #donutchart2, #donutchart3, #donutchart4, #donutchart5, #donutchart6, #donutchart7, #donutchart8 {
+	color: #7f7f7f;
+}
+#quotes .name {
+	color: #7f7f7f;
+}
+#services .circle {
+	border: 3px solid #7f7f7f;
+	color: #7f7f7f;
+}
+#services .item:hover .circle {
+	background-color: #7f7f7f;
+	color: #fff;
+}
+
+#our-facts .items .icon {
+	background-color: #7f7f7f;
+	color: #fff;
+}
+#our-facts .items:hover .circle {
+	background-color: #ffffff;
+	color: #7f7f7f;
+}
+#our-facts .items:hover .icon {
+	background-color: #000;
+	color: #7f7f7f;
+}
+#our-facts .items:hover .icon i {
+	color: #7f7f7f;
+}
+.portfolio-detail .heading {
+	color: #7f7f7f;
+}
+.links a {
+	color: #7f7f7f;
+}
+#options ul li:hover a, #options ul li a.selected {
+	color: #7f7f7f;
+	border: 3px solid #7f7f7f;
+}
+.overlayzoom span.zoom {
+	background: rgb(127, 127, 127); /* RGBa with 0.6 opacity */
+	background: rgba(127, 127, 127, 1);
+}
+.overlayzoom span.zoom span {
+}
+.overlayzoom:hover span.zoom, .overlayzoom:focus span.zoom {
+	background: rgb(127, 127, 127); /* RGBa with 0.6 opacity */
+	background: rgba(127, 127, 127, 0.6);
+}
+#pricing .p {
+	color: #fff;
+	background-color: #7f7f7f;
+}
+#pricing .col-md-3:hover .circle {
+	background-color: #7f7f7f;
+	color: #fff;
+}
+#pricing .col-md-3:hover .btn {
+	background-color: #7f7f7f;
+	color: #FFF;
+}
+#blog .post .date {
+	background-color: #7f7f7f;
+	color: #FFF;
+}
+
+.info a {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+.info a:link {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+.info a:hover {
+	color: #7f7f7f;
+	text-decoration: underline;
+}
+ul.nav-tabs li a {
+	color: #7f7f7f;
+}
+.tab-content ul li a {
+	color: #7f7f7f;
+}
+ul.media-list li a {
+	text-decoration: underline;
+	color: #7f7f7f;
+}
+#blog .post .more {
+	background-color: #7f7f7f;
+	color: #FFF;
+}
+#blog-page .post .date {
+	background-color: #7f7f7f;
+	color: #FFF;
+}
+#blog-page .post .more {
+	background-color: #7f7f7f;
+	color: #FFF;
+}
+#blog-page .post .info a {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+#blog-page .post .info a:link {
+	color: #7f7f7f;
+	text-decoration: none;
+}
+#blog-page .post .info a:hover {
+	color: #7f7f7f;
+	text-decoration: underline;
+}
+a.view-all {
+	border: 2px solid #7f7f7f;
+	color: #7f7f7f;
+}
+a.view-all:hover {
+	border: 2px solid #7f7f7f;
+	color: #fff;
+	background-color: #7f7f7f;
+}
+.testimonials-p .items .heading-1 {
+	color: #7f7f7f;
+}
+#contact .address i {
+	color: #7f7f7f;
+}
+#social-media ul li {
+	background-color: #fff;
+	color: #7f7f7f;
+}
+#footer .desc i {
+	color: #7f7f7f;
+}
+.scrollup {
+	background-color: #7f7f7f;
+	color: #fff;
+}
+.btn-default {
+	background-color: #7f7f7f;
+	color: #fff;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #000;
+}
