@@ -1,5 +1,5 @@
 <?php
-$adminemail = "youremailhere@googlemail.com";
+$adminemail = "office@90apples.com";
 
 if ($_GET['send'] == 'comments')
 {
