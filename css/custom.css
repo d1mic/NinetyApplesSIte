@@ -2,3 +2,8 @@ section {
 	padding-top: 30px;
 
 }
+#map {
+                width: 770px;
+                height: 370px;
+                float: right;
+            }
