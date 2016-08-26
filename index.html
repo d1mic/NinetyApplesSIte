@@ -11,6 +11,7 @@
       <link href="css/all-stylesheet.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/custom.css">
       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
       <!-- Just for debugging purposes. Don't actually copy this line! -->
       <!--[if lt IE 9]>
       <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
@@ -20,6 +21,41 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUpdZ0ZAlSnWblR_CoLeqYvkzwKl-dKvc"></script>
+      <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 15,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(44.8142503, 20.47883809999996), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(44.8142503, 20.47883809999996),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
    </head>
    <body>
       <!-- PRELOADER STARTS
@@ -623,7 +659,7 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="100">
+               <div class="col-lg-4 animated" data-animation="fadeInUp" data-animation-delay="100">
                   <h3>Postal Address</h3>
                   <div class="address"> <i class="fa fa-map-marker"></i> Ljubomira Stojanovica 18, Belgrade, Serbia <br>
                      <br>
@@ -633,10 +669,8 @@
                      <i class="fa fa-globe"></i> www.90apples.com 
                   </div>
                </div>
-               <div class="col-lg-6 form-element animated" data-animation="fadeInUp" data-animation-delay="300">
-                  <h3>Feel Free to Drop Us a Line</h3>
-                  <p>Tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. </p>
-                  <div class="form">
+         		 <div class="col-lg-8 form-element animated" data-animation="fadeInUp" data-animation-delay="300">
+               		  <!-- <div class="form">
                      <form action='process.php' method='post' name='ContactForm' id='ContactForm' >
                         <div id='message_post'></div>
                         <div class="input-group"> <span class="input-group-addon">@</span>
@@ -657,6 +691,9 @@
                         </div>
                      </form>
                   </div>
+                 -->
+                   <div id="map"></div>
+
                </div>
             </div>
          </div>
@@ -772,5 +809,6 @@
         <script type="text/javascript" src="js/retina/retina.js"></script>
         <!-- FitVids -->
         <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        
    </body>
 </html>
