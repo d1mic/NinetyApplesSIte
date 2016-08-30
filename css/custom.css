@@ -7,3 +7,9 @@ section {
                 height: 370px;
                 float: right;
             }
+ #social-media {
+	background-attachment: fixed;
+	background-image: url(../img/apple2.jpg);
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+}
