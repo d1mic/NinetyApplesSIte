@@ -4,16 +4,16 @@
 /************************************************************************************ ABOUT US CAROUSEL STARTS */
 
 $(document).ready(function() {
- 
+
   var time = 7; // time in seconds
- 
+
   var $progressBar,
-      $bar, 
-      $elem, 
-      isPause, 
+      $bar,
+      $elem,
+      isPause,
       tick,
       percentTime;
- 
+
     //Init the carousel
     $("#about-carousel").owlCarousel({
       slideSpeed : 500,
@@ -23,7 +23,7 @@ $(document).ready(function() {
       afterMove : moved,
       startDragging : pauseOnDragging
     });
- 
+
     //Init progressBar where elem is $("#owl-demo")
     function progressBar(elem){
       $elem = elem;
@@ -32,7 +32,7 @@ $(document).ready(function() {
       //start counting
       start();
     }
- 
+
     //create div#progressBar and div#bar then prepend to $("#owl-demo")
     function buildProgressBar(){
       $progressBar = $("<div>",{
@@ -43,7 +43,7 @@ $(document).ready(function() {
       });
       $progressBar.append($bar).prependTo($elem);
     }
- 
+
     function start() {
       //reset timer
       percentTime = 0;
@@ -51,7 +51,7 @@ $(document).ready(function() {
       //run interval every 0.01 second
       tick = setInterval(interval, 10);
     };
- 
+
     function interval() {
       if(isPause === false){
         percentTime += 1 / time;
@@ -60,17 +60,17 @@ $(document).ready(function() {
          });
         //if percentTime is equal or greater than 100
         if(percentTime >= 100){
-          //slide to next item 
+          //slide to next item
           $elem.trigger('owl.next')
         }
       }
     }
- 
-    //pause while dragging 
+
+    //pause while dragging
     function pauseOnDragging(){
       isPause = true;
     }
- 
+
     //moved callback
     function moved(){
       //clear interval
@@ -78,15 +78,15 @@ $(document).ready(function() {
       //start again
       start();
     }
- 
-    //uncomment this to make pause on mouseover 
+
+    //uncomment this to make pause on mouseover
     // $elem.on('mouseover',function(){
     //   isPause = true;
     // })
     // $elem.on('mouseout',function(){
     //   isPause = false;
     // })
- 
+
 });
 
 
@@ -146,16 +146,13 @@ $(document).ready(function () {
     }
 
     $("#our-services").owlCarousel({
-        autoPlay: 5000,
+        autoPlay: true,
         slideSpeed: 500,
         items: 4,
-        itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [979, 3],
-        itemsTablet: [768, 2],
-        itemsMobile: [479, 1],
-        autoHeight: true,
-		pagination: false,
-		navigation: true,
+        margin: 20,
+        // autoHeight: true,
+        pagination: false,
+        navigation: true,
         navigationText: [
         "<i class='fa fa-angle-left'></i>",
         "<i class='fa fa-angle-right'></i>"
@@ -301,7 +298,7 @@ $(document).ready(function() {
 
 $(window).load(function(){
           $("#navigation").sticky({ topSpacing: 0 });
-		  
+
         });
 
 /************************************************************************************ BOOTSTRAP LIGHTBOX STARTS */
@@ -330,7 +327,7 @@ $(window).load(function(){
                 });
 
             });
-			
+
 
 /************************************************************************************ APPEAR PLUGIN STARTS */
 
@@ -484,12 +481,12 @@ $(window).load(function(){
     });
 
 })(jQuery);
- 
+
 
 /************************************************************************************ PAGE ANIMATED ITEMS STARTS */
 
 	jQuery(document).ready(function($) {
-	
+
 	'use strict';
 
     	$('.animated').appear(function() {
@@ -508,51 +505,51 @@ $(window).load(function(){
 	            }
 	        }
 	    });
-});	
+});
 
-/************************************************************************************ PRELOADER STARTS */	
+/************************************************************************************ PRELOADER STARTS */
 
  jQuery(window).load(function() {
-             $('#preloader').fadeOut('slow'); 
-             
+             $('#preloader').fadeOut('slow');
+
          	});
- 
- 
+
+
  /************************************************************************************ TO TOP STARTS */
- 
- $(document).ready(function(){ 
-         
+
+ $(document).ready(function(){
+
              $(window).scroll(function(){
                  if ($(this).scrollTop() > 100) {
                      $('.scrollup').fadeIn();
                  } else {
                      $('.scrollup').fadeOut();
                  }
-             }); 
-         
+             });
+
              $('.scrollup').click(function(){
                  $("html, body").animate({ scrollTop: 0 }, 600);
                  return false;
              });
-         
-         });	
+
+         });
 
 
 
 
- /************************************************************************************ SWITCHER CSS STARTS */ 
- 
+ /************************************************************************************ SWITCHER CSS STARTS */
+
   $(document).ready(function() {
 "use strict";
     $("#hide, #show").click(function () {
         if ($("#show").is(":visible")) {
-           
+
             $("#show").animate({
                 "margin-left": "-500px"
             }, 500, function () {
                 $(this).hide();
             });
-            
+
             $("#switch").animate({
                 "margin-left": "0px"
             }, 500).show();
@@ -567,7 +564,7 @@ $(window).load(function(){
             }, 500);
         }
     });
-                      
+
 });
 
 /************************************************************************************ PORTFOLIO DETAIL STARTS */
@@ -611,14 +608,3 @@ $(window).load(function(){
         });
 
     });
-
-
-
-
-
-
-
-
-
-
-
