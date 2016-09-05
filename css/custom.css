@@ -9,10 +9,10 @@ section {
             }
  #social-media , #quotes {
 	background-attachment: fixed;
-	background-image: url(../img/apple2.jpg);
+	background-image: url(../img/apples4.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 }
 #testimonials{
-	background-image: url(../img/office3.jpg);
+	background-image: url(../img/pencils.jpg);
 }
