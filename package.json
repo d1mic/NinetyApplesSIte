@@ -1,0 +1,24 @@
+{
+  "name": "90apples-website",
+  "version": "1.0.0",
+  "description": "Website for Ninety Apples Belgrade",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimaria95/NinetyApplesSIte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimaria95/NinetyApplesSIte/issues"
+  },
+  "homepage": "https://github.com/dimaria95/NinetyApplesSIte#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12"
+  }
+}
