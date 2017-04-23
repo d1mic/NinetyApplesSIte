@@ -4,6 +4,7 @@
   "description": "Website for Ninety Apples Belgrade",
   "main": "index.js",
   "scripts": {
+    "start": "node ./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,14 @@
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "helmet": "^3.5.0",
+    "method-override": "^2.3.8",
+    "morgan": "^1.8.1",
+    "winston": "^2.3.1"
   }
 }
