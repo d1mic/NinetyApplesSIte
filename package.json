@@ -2,6 +2,9 @@
   "name": "90apples-website",
   "version": "1.0.0",
   "description": "Website for Ninety Apples Belgrade",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node ./server.js",
